@@ -1,19 +1,8 @@
-from kivy.core.window import Window
-
 from kivy.lang import Builder
-from kivy.properties import StringProperty, ListProperty, ObjectProperty
-
+from kivy.properties import  ObjectProperty
 from kivymd.app import MDApp
-from kivymd.uix.boxlayout import MDBoxLayout
-from kivymd.uix.floatlayout import MDFloatLayout
-from kivymd.uix.anchorlayout import MDAnchorLayout
-from kivy.uix.gridlayout import GridLayout
-from kivymd.uix.screen import MDScreen
-from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.scrollview import ScrollView
 
-#if platform == "linux":
-Window.size = (450, 740)
 
 KV = '''
 
